@@ -1,0 +1,5 @@
+c_score = list(map(int, input("철수의 국어, 영어, 수학 점수를 입력하세요.").split()))
+y_score = list(map(int, input("영희의 국어, 영어, 수학 점수를 입력하세요.").split()))
+print("국어 평균 : ", (c_score[0]+y_score[0])/2)
+print("영어 평균 : ", (c_score[1]+y_score[1])/2)
+print("수학 평균 : ", (c_score[2]+y_score[2])/2)
